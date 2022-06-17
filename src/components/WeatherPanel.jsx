@@ -25,7 +25,7 @@ const WeatherPanel = () => {
         urlWeather = urlWeather + urlCity + location;
 
         await fetch(urlWeather).then((res) => {
-            if (!res.ok)  throw { res };
+            if (!res.ok)  return { res };
             return res.json();
         }).then((data) => {
             console.log(data);
@@ -41,7 +41,7 @@ const WeatherPanel = () => {
         urlForecast = urlForecast + urlCity + loc;
 
         await fetch(urlForecast).then((res) => {
-            if (!res.ok) throw { res };
+            if (!res.ok) return { res };
             return res.json();
         }).then((data) => {
             console.log(data);
