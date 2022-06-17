@@ -1,0 +1,61 @@
+body{
+  background-image: url("https://images.pexels.com/photos/5024147/pexels-photo-5024147.jpeg?cs=srgb&dl=pexels-nat%C3%A1lia-m%C3%A1sala-5024147.jpg&fm=jpg");
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.input-group{
+  width: 60%;
+}
+
+.card{
+  max-width: 60%;
+  
+}
+ @media (min-width: 768px) {
+.card{
+  width: auto;
+}
+}
+
+.card-title{
+  position: absolute;
+  padding: 1.5rem;
+ 
+  color:black;
+  font-size: 2rem;
+  vertical-align: top;
+}
+
+.card-date{
+  position: absolute;
+  padding-left: 4.5rem;
+  margin-top: 6rem;
+  color:black;
+  font-size: 1.3rem;
+  font-weight:600;
+}
+
+.card-temp{
+  position: absolute;
+  padding-left: 5rem;
+  margin-top: 20rem;
+  font-size: 2rem;
+  color:antiquewhite;
+
+}
+
+.card-desc{
+  position: absolute;
+  padding-left: 1.5rem;
+  margin-top: 17rem;
+  color:antiquewhite;
+  font-size: 1.5rem;
+
+}
