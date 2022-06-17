@@ -22,10 +22,10 @@ const WeatherPanel = () => {
 
         //llamada a la api Weather usando fetch
 
-        urlWeather = urlWeather + urlCity + loc;
+        urlWeather = urlWeather + urlCity + location;
 
         await fetch(urlWeather).then((res) => {
-            if (!res.ok) throw{ res };
+            if (!res.ok)  throw { res };
             return res.json();
         }).then((data) => {
             console.log(data);
