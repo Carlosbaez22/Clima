@@ -52,7 +52,7 @@ const Card = ({ infoShow, infoLoading, infoWeather, infoForecast }) => {
                                     <p className="card-desc"><img src={iconUrl} alt="icon" />{infoWeather.weather[0].description}</p>
                                     <img src="https://images.pexels.com/photos/3969491/pexels-photo-3969491.jpeg?cs=srgb&dl=pexels-zhanqun-cai-3969491.jpg&fm=jpg"
                                         className="img-fluid rounded-start"
-                                        alt="City Image"
+                                        alt="City"
                                     />
 
                                 </div>
